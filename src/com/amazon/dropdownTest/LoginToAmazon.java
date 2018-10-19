@@ -48,7 +48,7 @@ public class LoginToAmazon {
 		driver.findElement(By.xpath("//div[@id='nav-flyout-ya-signin']/a/span")).click();
 		driver.findElement(By.id("ap_email")).sendKeys("9742020752");
 		driver.findElement(By.id("continue")).click();
-		driver.findElement(By.id("ap_password")).sendKeys("amazon");
+		driver.findElement(By.xpath("//input[@id='ap_password']")).sendKeys("amazon");
 		driver.findElement(By.id("signInSubmit")).click();
 		//Actions act1 = new Actions(driver);
 		WebElement wb1 = driver.findElement(By.xpath("//a[@id='nav-link-yourAccount']/span[1]"));
