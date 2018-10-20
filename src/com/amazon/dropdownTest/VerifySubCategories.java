@@ -5,10 +5,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import com.amazon.genericlib.BaseClass1;
 
-import com.amazon.genericlib.BaseClass;
-
-public class VerifySubCategories extends BaseClass {
+public class VerifySubCategories extends BaseClass1 {
 	
 	@Test(priority=1)
 	public void verifyEchoAlexaSubCategoryTest()
