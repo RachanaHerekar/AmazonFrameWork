@@ -1,5 +1,7 @@
 package com.amazon.dropdownTest;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -12,6 +14,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=1)
 	public void verifyEchoAlexaSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -36,6 +39,8 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=2)
 	public void verifyFireTVStickSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -60,6 +65,8 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=3)
 	public void verifyKindleEReadersAndEbooksSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -84,6 +91,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=4)
 	public void verifyAmazonPrimeVideoSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -108,6 +116,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=5)
 	public void verifyAmazonPrimeMusicSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -133,6 +142,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=6)
 	public void verifyAaMobileComputersSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -157,6 +167,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=7)
 	public void verifyTVAppliancesElectronicsSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -180,6 +191,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=8)
 	public void verifyMenFasionSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -203,6 +215,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=9)
 	public void verifyWomenFasionSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -226,6 +239,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=10)
 	public void verifyHomeKitchenPetsSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -249,6 +263,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=11)
 	public void verifyBeautyHealthGrocerySubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -272,6 +287,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=12)
 	public void verifySportsFitnessBagsLuggageSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -295,6 +311,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=13)
 	public void verifyToysBabyProductsKidsFashionSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -318,6 +335,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=14)
 	public void verifyCarMotorBikeIndustrialSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -341,6 +359,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=15)
 	public void verifyBooksSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -364,6 +383,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=16)
 	public void verifyMoviesMusicVideoGamesSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -387,6 +407,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=17)
 	public void verifyGiftCardMobileRechargesSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -410,6 +431,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=18)
 	public void verifyGlobalStoreSubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
@@ -434,6 +456,7 @@ public class VerifySubCategories extends BaseClass1 {
 	@Test(priority=19)
 	public void verifyFullSStoreDirectorySubCategoryTest()
 	{
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		Actions act = new Actions(driver);
 		WebElement wb = driver.findElement(By.id("nav-link-shopall"));
 		act.moveToElement(wb).perform();
