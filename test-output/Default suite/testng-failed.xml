@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.amazon.dropdownTest.RegisterAddress">
+      <class name="com.amazon.dropdownTest.VerifySubCategories">
         <methods>
-          <include name="addressRegisterTest"/>
+          <include name="verifyToysBabyProductsKidsFashionSubCategoryTest"/>
+          <include name="verifyGiftCardMobileRechargesSubCategoryTest"/>
           <include name="configAC"/>
           <include name="configBM"/>
           <include name="configAM"/>
           <include name="configBC"/>
         </methods>
-      </class> <!-- com.amazon.dropdownTest.RegisterAddress -->
+      </class> <!-- com.amazon.dropdownTest.VerifySubCategories -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
